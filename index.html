@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$MAU | لورد الكريبتو الفرعوني</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #FFD700;
+            --dark: #0f0f0f;
+            --card-bg: #1a1a1a;
+        }
+        body {
+            background-color: var(--dark);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        nav {
+            background: rgba(0,0,0,0.9);
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid var(--gold);
+        }
+        .container { max-width: 1100px; margin: auto; padding: 20px; }
+        
+        /* Hero Section */
+        .hero {
+            padding: 150px 20px 100px;
+            text-align: center;
+            background: linear-gradient(to bottom, rgba(15,15,15,0.8), var(--dark)), 
+                        url('https://images.unsplash.com/photo-1541963463532-d68292c34b19?auto=format&fit=crop&w=1350&q=80'); /* خلفية أهرامات افتراضية */
+            background-size: cover;
+        }
+        .hero h1 { font-size: 4em; color: var(--gold); margin: 0; text-shadow: 2px 2px 10px rgba(255,215,0,0.5); }
+        .hero p { font-size: 1.5em; color: #ccc; }
+
+        /* Features Section */
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 50px; }
+        .card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid #333;
+            transition: 0.3s;
+            text-align: center;
+        }
+        .card:hover { border-color: var(--gold); transform: translateY(-10px); }
+        .card i { font-size: 3em; color: var(--gold); margin-bottom: 15px; }
+
+        /* Roadmap */
+        .roadmap { padding: 50px 0; text-align: center; }
+        .roadmap h2 { color: var(--gold); font-size: 2.5em; }
+        
+        .btn {
+            background: var(--gold);
+            color: black;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+        .btn:hover { background: white; transform: scale(1.05); }
+
+        footer { padding: 50px; text-align: center; border-top: 1px solid #333; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <strong style="color:var(--gold); font-size: 1.5em;">$MAU COIN</strong>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>$MAU: روح مصر في عالم الكريبتو</h1>
+            <p>أول عملة ميمز (Meme Coin) برؤية ملكية فرعونية وتقنيات المستقبل.</p>
+            <a href="https://x.com" class="btn"><i class="fab fa-twitter"></i> انضم إلى مجتمعنا</a>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 style="text-align:center; color:var(--gold); font-size: 2.5em;">لماذا $MAU؟</h2>
+        <div class="features">
+            <div class="card">
+                <i class="fas fa-cat"></i>
+                <h3>رمزية الـ MAU</h3>
+                <p>مستوحاة من القط المصري القديم، رمز الذكاء والحماية والقوة في الحضارة الفرعونية.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-users"></i>
+                <h3>مجتمع لا يقهر</h3>
+                <p>مشروع قائم بالكامل على المجتمع، حيث يساهم كل حامل للعملة في رسم مستقبلها.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-rocket"></i>
+                <h3>انطلاقة نحو القمر</h3>
+                <p>خطة تسويقية عالمية تشمل جولات في القاهرة وكاليفورنيا وغزو الفضاء الرقمي.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="roadmap container">
+        <h2>خارطة الطريق (Roadmap)</h2>
+        <div class="features">
+            <div class="card">
+                <h4>المرحلة 1: الانبعاث</h4>
+                <p>إطلاق الموقع، بناء المجتمع، وتصميم شخصيات MAU الفرعونية بالذكاء الاصطناعي.</p>
+            </div>
+            <div class="card">
+                <h4>المرحلة 2: التوسع</h4>
+                <p>الإدراج في منصات التداول الكبرى وحملات إعلانية في شوارع القاهرة الكبرى.</p>
+            </div>
+            <div class="card">
+                <h4>المرحلة 3: السيادة</h4>
+                <p>إطلاق مجموعة NFT حصرية وبناء نظام بيئي متكامل للعملة.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة لعملة $MAU &copy; 2026</p>
+        <p style="font-size: 0.8em; color: #666;">عملة $MAU هي عملة ترفيهية تهدف لبناء مجتمع قوي، استثمر بذكاء.</p>
+    </footer>
+
+</body>
+</html>
